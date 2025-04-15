@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Capital Team</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-home"></i>
+                <span>Villa Capital Team</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Villa Capital Team</h1>
+            <p>Excellence in Real Estate Investment</p>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Villa Capital Team is a premier real estate investment and management company specializing in residential properties. Founded with a vision to transform the real estate landscape, we focus on acquiring, renovating, and managing high-quality properties in desirable locations.</p>
+                    
+                    <p>Our team of experienced professionals brings decades of combined expertise in real estate, finance, and property management. We pride ourselves on our commitment to excellence, transparency, and customer satisfaction.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>To provide exceptional living spaces that enhance our residents' quality of life while delivering strong returns for our investors through strategic property acquisitions and management.</p>
+                    
+                    <h3>Our Values</h3>
+                    <ul class="values-list">
+                        <li><i class="fas fa-check-circle"></i> <strong>Integrity:</strong> We conduct our business with honesty and transparency</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Excellence:</strong> We strive for the highest standards in everything we do</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Innovation:</strong> We embrace new ideas and approaches to real estate investment</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Community:</strong> We are committed to creating positive impact in the neighborhoods we serve</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Properties Managed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Satisfaction Rate</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="properties" class="properties">
+            <h2>Our Properties</h2>
+            <div class="property-grid">
+                <div class="property-card">
+                    <div class="property-images">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="955 Curd Rd">
+                        <div class="image-upload">
+                            <label for="upload-955">
+                                <i class="fas fa-camera"></i>
+                                Upload Photos
+                            </label>
+                            <input type="file" id="upload-955" accept="image/*" multiple>
+                        </div>
+                    </div>
+                    <div class="property-info">
+                        <h3>955 Curd Rd</h3>
+                        <p class="address"><i class="fas fa-map-marker-alt"></i> 955 Curd Rd</p>
+                        <div class="property-details">
+                            <span><i class="fas fa-bed"></i> 3 Bedrooms</span>
+                            <span><i class="fas fa-bath"></i> 2 Bathrooms</span>
+                            <span><i class="fas fa-ruler-combined"></i> 2000 sqft</span>
+                        </div>
+                        <p class="description">Spacious and bright modern home with newly renovated kitchen and bathrooms, close to schools and shopping centers.</p>
+                        <button class="contact-btn" data-property="955">Schedule Viewing</button>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <div class="property-images">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="61 E Caldwell St">
+                        <div class="image-upload">
+                            <label for="upload-61">
+                                <i class="fas fa-camera"></i>
+                                Upload Photos
+                            </label>
+                            <input type="file" id="upload-61" accept="image/*" multiple>
+                        </div>
+                    </div>
+                    <div class="property-info">
+                        <h3>61 E Caldwell St</h3>
+                        <p class="address"><i class="fas fa-map-marker-alt"></i> 61 E Caldwell St</p>
+                        <div class="property-details">
+                            <span><i class="fas fa-bed"></i> 4 Bedrooms</span>
+                            <span><i class="fas fa-bath"></i> 3 Bathrooms</span>
+                            <span><i class="fas fa-ruler-combined"></i> 2500 sqft</span>
+                        </div>
+                        <p class="description">Luxury modern home with high-end finishes, large backyard, close to parks and transportation hubs.</p>
+                        <button class="contact-btn" data-property="61">Schedule Viewing</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+                <form id="inquiry-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="property">Property Interest</label>
+                        <select id="property" required>
+                            <option value="">Please Select</option>
+                            <option value="955">955 Curd Rd</option>
+                            <option value="61">61 E Caldwell St</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-user"></i> Evan Lee</p>
+                <p><i class="fas fa-envelope"></i> villacapitalteam@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Villa Capital Team. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
